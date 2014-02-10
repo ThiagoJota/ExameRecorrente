@@ -15,6 +15,7 @@ class ExamsController < ApplicationController
   # GET /exams/new
   def new
     @exam = Exam.new
+    #flash[:error] = "Exclusao nao realizada. Item esta sendo utilizado pelo sistema"
   end
 
   # GET /exams/1/edit
