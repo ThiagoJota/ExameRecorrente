@@ -40,9 +40,11 @@ gem 'devise'
 
 gem "heroku"
 
+gem 'rails_12factor'
+
 group :production do
   gem 'thin'
-  gem 'rails_12factor'
+
 end
 
 
